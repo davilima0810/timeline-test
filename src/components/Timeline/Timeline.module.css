@@ -1,0 +1,38 @@
+.container {
+  padding: 24px;
+}
+
+.scrollWrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.timelineContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.laneWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.laneLabel {
+  width: 80px;
+  font-size: 12px;
+  text-align: right;
+  color: #90caf9;
+  flex-shrink: 0;
+}
+
+.lane {
+  position: relative;
+  height: 50px;
+  flex: 1;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  overflow: visible;
+}
